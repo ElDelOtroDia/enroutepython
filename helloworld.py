@@ -43,6 +43,39 @@
 #     print(var_rapida)
 #     var_rapida += 2
 
-for x in range(1, 101): 
-  if not(x%2):
-    print(x)
+# for x in range(1, 101):
+#     if not(x % 2):
+#         print(x)
+
+# if type(var_rapida) is int:
+#     print('Es un entero')
+
+# if type(var) is str:
+#     print('Es una cadena')
+
+# if type(flotante) is float:
+#     print('Es flotante')
+
+# if type(flotante) is int:
+#     print('Es entero')
+
+# arreglo_num = [0, 1, 2, 3]
+# arreglo_car = ['c', 'h', 'a', 'r']
+
+# print(arreglo_car[0])
+# print(arreglo_car[1])
+# print(arreglo_car[-1])
+# print(len(arreglo_car))
+
+# for cualquierNombreDeVariable in arreglo_num:
+#     print(cualquierNombreDeVariable)
+
+# for i in range(5):
+#     print(var[i])
+
+# for i in var:
+#     print(i)
+
+for i in range(0, 100):
+    if (i & 1):
+        print(i)
