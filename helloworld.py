@@ -43,6 +43,6 @@
 #     print(var_rapida)
 #     var_rapida += 2
 
-for x in range(100): 
+for x in range(1, 100): 
   if not(x%2):
     print(x)
